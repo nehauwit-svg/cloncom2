@@ -1,5 +1,5 @@
 module.exports = async (req, res) => {
-  const shopifyDomain = "remotetalent.2kool4u.net";
+  const shopifyDomain = "equaliberfind.com";
   const proxyHost = req.headers.host;
 
   const targetURL = `https://${shopifyDomain}${req.url}`;
